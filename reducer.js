@@ -58,7 +58,7 @@ const reducer = (state = initialState, action) => {
 
 
 // Export Action Creators
-const actonCreators = {
+export  const actonCreators = {
   startTimer,
   restartTimer,
   addSecond
